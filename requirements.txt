@@ -1,0 +1,6 @@
+boto3
+streamlit
+
+# MCP (Model Context Protocol) dependencies
+mcp>=0.9.0
+aiohttp

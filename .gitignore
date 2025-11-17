@@ -1,0 +1,9 @@
+__pycache__/
+.kiro
+.venv
+.vscode
+*.log
+mcp.json
+
+
+

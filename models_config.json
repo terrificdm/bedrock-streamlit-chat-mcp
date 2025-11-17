@@ -1,0 +1,117 @@
+{
+  "models": {
+    "Amazon Nova Lite": {
+      "model_id": "us.amazon.nova-lite-v1:0",
+      "max_tokens": 4096,
+      "supports_multimodal": true,
+      "supports_video": true,
+      "supports_reasoning": false,
+      "supports_tools": true,
+      "top_k_max": 128,
+      "model_family": "nova",
+      "supports_top_k": true,
+      "supports_top_p": true
+    },
+    "Amazon Nova Pro": {
+      "model_id": "us.amazon.nova-pro-v1:0",
+      "max_tokens": 4096,
+      "supports_multimodal": true,
+      "supports_video": true,
+      "supports_reasoning": false,
+      "supports_tools": true,
+      "top_k_max": 128,
+      "model_family": "nova",
+      "supports_top_k": true,
+      "supports_top_p": true
+    },
+    "Anthropic Claude-4-Sonnet": {
+      "model_id": "us.anthropic.claude-sonnet-4-20250514-v1:0",
+      "max_tokens": 65536,
+      "supports_multimodal": true,
+      "supports_video": false,
+      "supports_reasoning": true,
+      "supports_tools": true,
+      "top_k_max": 500,
+      "model_family": "claude",
+      "supports_top_k": true,
+      "supports_top_p": false
+    },
+    "Anthropic Claude-4.5-Haiku": {
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "max_tokens": 65536,
+      "supports_multimodal": true,
+      "supports_video": false,
+      "supports_reasoning": true,
+      "supports_tools": true,
+      "top_k_max": 500,
+      "model_family": "claude",
+      "supports_top_k": true,
+      "supports_top_p": false
+    },
+     "Anthropic Claude-4.5-Sonnet": {
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "max_tokens": 65536,
+      "supports_multimodal": true,
+      "supports_video": false,
+      "supports_reasoning": true,
+      "supports_tools": true,
+      "top_k_max": 500,
+      "model_family": "claude",
+      "supports_top_k": true,
+      "supports_top_p": false
+    },
+    "DeepSeek-R1": {
+      "model_id": "us.deepseek.r1-v1:0",
+      "max_tokens": 32768,
+      "supports_multimodal": false,
+      "supports_video": false,
+      "supports_reasoning": false,
+      "supports_tools": false,
+      "top_k_max": 500,
+      "model_family": "deepseek",
+      "supports_top_k": false,
+      "supports_top_p": true
+    },
+    "Qwen3-235B-A22B": {
+      "model_id": "qwen.qwen3-235b-a22b-2507-v1:0",
+      "max_tokens": 32768,
+      "supports_multimodal": false,
+      "supports_video": false,
+      "supports_reasoning": true,
+      "supports_tools": true,
+      "top_k_max": 500,
+      "model_family": "qwen",
+      "supports_top_k": false,
+      "supports_top_p": true
+    },
+    "Qwen3-32B-Dense": {
+      "model_id": "qwen.qwen3-32b-v1:0",
+      "max_tokens": 32768,
+      "supports_multimodal": false,
+      "supports_video": false,
+      "supports_reasoning": true,
+      "supports_tools": true,
+      "top_k_max": 500,
+      "model_family": "qwen",
+      "supports_top_k": false,
+      "supports_top_p": true
+    }
+  },
+  "file_config": {
+    "image": {
+      "types": ["gif", "jpg", "jpeg", "png", "webp"],
+      "size_limit": 4718592
+    },
+    "document": {
+      "types": ["pdf", "csv", "doc", "docx", "xls", "xlsx", "html", "txt", "md"],
+      "size_limit": 4718592
+    },
+    "video": {
+      "types": ["mov", "mkv", "mp4", "webm", "flv", "mpeg", "mpg", "wmv", "three_gp"],
+      "size_limit": 26214400
+    }
+  },
+  "regions": ["us-east-1", "us-east-2", "us-west-2"],
+  "default_model": "Anthropic Claude-4.5-Sonnet",
+  "default_region": "us-west-2"
+}
