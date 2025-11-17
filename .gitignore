@@ -4,6 +4,7 @@ __pycache__/
 .vscode
 *.log
 mcp.json
+.DS_Store
 
 
 
