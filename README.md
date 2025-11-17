@@ -120,4 +120,6 @@ The AI automatically selects and uses appropriate tools. View server status in t
 ├── asyncio_loop_manager.py           # Async event loop (optional)
 ├── archived/                         # Legacy implementations
 └── utils/                            # UI assets
-```
+```  
+
+> All codes including documents are developed by [Kiro](https://kiro.dev/) base on [bedrock-streamlit-chat repo](https://github.com/terrificdm/bedrock-streamlit-chat)
